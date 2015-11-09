@@ -1,0 +1,22 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	background-color: pink;
+	height: 500px;
+}
+
+.vpLogo {
+	position: relative;
+	width: 60px;
+	top: 10px;
+	left: 10px;
+}
+
+.hamburgerMenu {
+	position: absolute;
+	top: 30px;
+	right: 10px;
+}
