@@ -1,0 +1,60 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	color: #1a1a19;
+	background-color: #f7f7f7;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+	height: 24em;
+}
+h2 {
+	font-size: 4em;
+	font-weight: 900;
+}
+
+.vpLogo {
+	position: relative;
+	width: 3.7em;
+	top: 0.7em;
+	left: 0.7em;
+}
+
+.hamburgerMenu {
+	position: absolute;
+	top: 1.9em;
+	right: 0.7em;
+}
+.introText {
+	font-size: 1.5em;
+	font-weight: 300;
+	text-align: center;
+	padding-top: 2em;
+	padding-left: 9.5em;
+	padding-right: 9.5em;
+}
+
+.projectThumb {
+	float:left;
+	padding:.2em;
+	width: 33.33%;
+}
+
+#social {
+	padding-top: 5em;
+	padding-bottom: 5em;
+	padding-right: 2em;
+	padding-left: 2em;
+	text-align: center;
+}
+
+#copyright {
+	font-size: 0.7em;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#bigTitle {
+	text-align: center;
+}
