@@ -6,8 +6,18 @@ body {
 }
 
 header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
 	height: 24em;
 }
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
 h2 {
 	font-size: 4em;
 	font-weight: 900;
@@ -21,6 +31,9 @@ h2 {
 }
 
 .hamburgerMenu {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
 	position: absolute;
 	top: 1.9em;
 	right: 0.7em;
@@ -34,6 +47,13 @@ h2 {
 	padding-right: 9.5em;
 }
 
+.projectContainer {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+	overflow: auto;
+}
+
 .projectThumb {
 	float:left;
 	padding:.2em;
@@ -41,10 +61,8 @@ h2 {
 }
 
 #social {
-	padding-top: 5em;
-	padding-bottom: 5em;
-	padding-right: 2em;
-	padding-left: 2em;
+	clear: both;
+	padding: 5em 2em;
 	text-align: center;
 }
 
@@ -53,6 +71,7 @@ h2 {
 	font-weight: 600;
 	text-transform: uppercase;
 	text-align: center;
+	padding-bottom: 3em;
 }
 
 #bigTitle {
