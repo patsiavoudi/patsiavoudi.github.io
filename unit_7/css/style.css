@@ -1,0 +1,114 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	color: #1a1a19;
+	background-color: #f7f7f7;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+	padding: 20px;
+	height: 22em;
+}
+
+h1 {
+	font-size: 4em;
+	font-weight: 900;
+	padding-top: 0.5em;
+}
+
+.vpLogo {
+	position: relative;
+	width: 3.7em;
+	top: 0.7em;
+	left: 0.7em;
+}
+
+.hamburgerMenu {
+	padding: 20px;
+	position: absolute;
+	top: 1.9em;
+	right: 0.7em;
+}
+
+.introText {
+	font-size: 1.5em;
+	font-weight: 300;
+	text-align: center;
+	padding-top: 2em;
+	padding-left: 9.5em;
+	padding-right: 9.5em;
+}
+
+.projectContainer {
+	overflow: auto;
+	width: 960px;
+	margin: 0 auto;
+}
+
+.imgContainer{
+	background-color: #9C00FF;
+	max-width: 320px;
+	max-height: 320px;
+	float:left;
+	border: solid .2em #f7f7f7;
+	position: relative;
+}
+
+.imgContainer img {
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+
+.projectDetails {
+	width: 314px;
+	opacity: 0;
+	text-align: center;
+	position: absolute;
+    top: 140px;
+    color: white;
+}
+
+.imgContainer:hover img {
+	opacity: 0.3;
+	cursor: pointer;
+}
+
+.imgContainer:hover .projectDetails {
+	opacity: 1;
+	z-index: 1;
+}
+
+.projectDetails h3 {
+	font-size: 1em;
+	font-weight: 900;
+	letter-spacing: 0.1em;
+}
+
+.projectDetails p {
+	font-size: 1em;
+	font-weight: 300;
+	letter-spacing: 0.1em;
+}
+
+.linkedin:hover {
+	
+}
+
+#social {
+	clear: both;
+	padding: 5em 2em;
+	text-align: center;
+}
+
+#copyright {
+	font-size: 0.7em;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 3em;
+}
+
+#bigTitle {
+	text-align: center;
+}
